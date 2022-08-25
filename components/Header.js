@@ -41,7 +41,7 @@ function Header() {
                     <input
                         type="search"
                         placeholder="Search"
-                        className="bg-gray-50 block w-full pl-10 sm:text-sm
+                        className="bg-gray-50 block pl-10 sm:text-sm
                         border-gray-300 rounded-md focus:ring-black focus:border-black"
                     />
                 </div>
@@ -68,7 +68,7 @@ function Header() {
                             />
                         </>
                     ) : (
-                        <button onClick={signIn} className="min-w-32">Sign In</button>
+                        <button onClick={signIn} className="font-bold text-blue-500">Sign In</button>
                     )
                 }
             </div>
