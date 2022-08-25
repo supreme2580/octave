@@ -41,7 +41,7 @@ function Header() {
                     <input
                         type="search"
                         placeholder="Search"
-                        className="bg-gray-50 block pl-10 sm:text-sm
+                        className="bg-gray-50 block w-full pl-10 sm:text-sm
                         border-gray-300 rounded-md focus:ring-black focus:border-black"
                     />
                 </div>
