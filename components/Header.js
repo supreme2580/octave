@@ -68,7 +68,7 @@ function Header() {
                             />
                         </>
                     ) : (
-                        <button onClick={signIn}>Sign In</button>
+                        <button onClick={signIn} className="w-10">Sign In</button>
                     )
                 }
             </div>
