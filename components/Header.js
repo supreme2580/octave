@@ -25,7 +25,7 @@ function Header() {
     <div className="shadow-sm border-b bg-white sticky top-0 z-50">
         <div className="flex justify-between max-w-6xl mx-5 lg:mx-auto">
            {/** Left icon */}
-            <div onClick={() => router.push("/")} className="relative w-24 scale-125 lg:inline-grid cursor-pointer">
+            <div onClick={() => router.push("/")} className="relative w-10 lg:w-24 scale-125 lg:inline-grid cursor-pointer">
                 <Image
                     src="/octave.png"
                     layout="fill"
