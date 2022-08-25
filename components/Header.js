@@ -47,7 +47,7 @@ function Header() {
                 </div>
             </div>
             {/** Right */}
-            <div className="flex items-center justify-end space-x-2 lg:space-x-4">
+            <div className="flex items-center justify-end space-x-4">
                 <HomeIcon className="navBtn" onClick={() => router.push("/")} />
                 <MenuIcon className="h-6 md:hidden cursor-pointer" />
                 {
