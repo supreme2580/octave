@@ -16,6 +16,7 @@ export default NextAuth({
   callbacks: {
     async session({ session, token, user }) {
       session.user.uid = token.sub
+      console.log(process.env.NEXT_PUBLIC_GOOGLE_CLIENT_SECRET)
       return session;
     }
   }
